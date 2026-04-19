@@ -1,9 +1,9 @@
 Categories:
   - Health & Fitness
 License: AGPL-3.0-or-later
-AuthorName: mbosse
-SourceCode: https://github.com/YOUR_USERNAME/ironlog2
-IssueTracker: https://github.com/YOUR_USERNAME/ironlog2/issues
+AuthorName: Michael Bosse
+SourceCode: https://github.com/IronLog/IronLog-Android
+IssueTracker: https://github.com/IronLog/IronLog-Android/issues
 
 AutoName: IronLog
 Description: |-
@@ -18,7 +18,7 @@ Description: |-
   - Open source and free from tracking or ads
 
 RepoType: git
-Repo: https://github.com/YOUR_USERNAME/ironlog2
+Repo: https://github.com/IronLog/IronLog-Android
 
 Builds:
   - versionName: 1.0
