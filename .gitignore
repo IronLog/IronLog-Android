@@ -1,0 +1,33 @@
+# Gradle files
+.gradle/
+build/
+app/build/
+
+# Android Studio / IntelliJ
+.idea/
+*.iml
+*.ipr
+*.iws
+.navigation/
+
+# Android generated files
+captures/
+.externalNativeBuild/
+.cxx/
+local.properties
+output.json
+
+# Signing files
+*.jks
+*.keystore
+*.pk8
+*.pem
+
+# OS generated files
+.DS_Store
+Thumbs.db
+*~
+*.swp
+
+# App-specific
+ironlog.jsx
