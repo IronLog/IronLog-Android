@@ -1,0 +1,34 @@
+Categories:
+  - Health & Fitness
+License: AGPL-3.0-or-later
+AuthorName: mbosse
+SourceCode: https://github.com/YOUR_USERNAME/ironlog2
+IssueTracker: https://github.com/YOUR_USERNAME/ironlog2/issues
+
+AutoName: IronLog
+Description: |-
+  IronLog is a minimalist, native Android application for logging your strength training sessions. 
+
+  Features:
+  - Fast logging with shorthand input (e.g., 135x5x3)
+  - Automatic Personal Record (PR) tracking
+  - Estimated 1RM calculations
+  - Exercise history and progress tracking
+  - 100% private: all data stays on your device
+  - Open source and free from tracking or ads
+
+RepoType: git
+Repo: https://github.com/YOUR_USERNAME/ironlog2
+
+Builds:
+  - versionName: 1.0
+    versionCode: 1
+    commit: v1.0.0
+    subdir: app
+    gradle:
+      - yes
+
+AutoUpdateMode: Version v%v
+UpdateCheckMode: Tags
+CurrentVersion: 1.0
+CurrentVersionCode: 1
