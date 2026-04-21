@@ -1,8 +1,10 @@
-# IronLog
+# GymLoga
 
-IronLog is a minimalist, 100% private, and open-source weightlifting logger. 
+GymLoga is a minimalist, 100% private, and open-source weightlifting logger. 
 
 I built this app because I wanted a tracking tool that stayed out of my way, something that mirrors the speed and simplicity of a physical paper log while providing the modern benefits of automatic progress tracking and PR calculations. It's designed for lifters who prefer efficiency over complex, data-heavy "typical" fitness apps.
+
+This application has no relation to the existing application known as IronLog. I named it before I realized there was an existing app. I am in the process of renaming it.
 
 ## Features
 
