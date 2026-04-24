@@ -179,8 +179,8 @@ fun FlowRow(
 fun formatDate(iso: String): String {
     return try {
         val date = LocalDate.parse(iso)
-        val formatter = DateTimeFormatter.ofPattern("EEE, MMM d")
-        date.format(formatter)
+        val pattern = if (date.year != LocalDate.now().year) "EEE, MMM d, yyyy" else "EEE, MMM d"
+        date.format(DateTimeFormatter.ofPattern(pattern))
     } catch (e: Exception) {
         iso
     }
