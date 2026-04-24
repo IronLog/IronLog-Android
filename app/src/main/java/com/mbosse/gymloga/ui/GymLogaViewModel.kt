@@ -67,6 +67,7 @@ class GymLogaViewModel(private val repository: SessionRepository) : ViewModel() 
     // Detail States
     var selectedSession by mutableStateOf<Session?>(null)
     var selectedExerciseName by mutableStateOf<String?>(null)
+    var exerciseHistorySource by mutableStateOf(GymView.HISTORY)
 
     fun addSet() {
         if (curName.isBlank() || curSet.isBlank()) return

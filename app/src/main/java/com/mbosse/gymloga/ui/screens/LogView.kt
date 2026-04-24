@@ -99,8 +99,8 @@ fun LogView(viewModel: GymLogaViewModel) {
 
         Spacer(modifier = Modifier.height(4.dp))
 
-        // Exercise cards — newest first, edit controls inline on the active one
-        viewModel.aExercises.reversed().forEach { ex ->
+        // Exercise cards — insertion order, edit controls inline on the active one
+        viewModel.aExercises.forEach { ex ->
             val isActive = ex.name.lowercase() == viewModel.curName.lowercase()
             ExerciseCard(
                 ex = ex,

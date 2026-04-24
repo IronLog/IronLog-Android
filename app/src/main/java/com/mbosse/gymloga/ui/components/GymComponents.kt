@@ -185,3 +185,6 @@ fun formatDate(iso: String): String {
         iso
     }
 }
+
+fun formatVolume(lbs: Long): String =
+    if (lbs >= 1000) "${"%.1f".format(lbs / 1000.0)}k lbs" else "$lbs lbs"

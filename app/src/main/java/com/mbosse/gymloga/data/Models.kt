@@ -98,6 +98,11 @@ object DataLogic {
         return listOf(WorkoutSet(note = t))
     }
 
+    fun getSessionVolume(session: Session): Long =
+        session.exercises.sumOf { ex ->
+            ex.sets.sumOf { set -> ((set.w ?: 0.0) * (set.r ?: 0)).toLong() }
+        }
+
     fun getAllExerciseNames(sessions: List<Session>): List<String> {
         return sessions.flatMap { sess -> sess.exercises.map { it.name } }
             .distinctBy { it.lowercase() }
